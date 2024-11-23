@@ -2,9 +2,14 @@ package org.example;
 
 public class Car {
     // target object
-    IEngine engine;
+    PetrolEngine engine;
 
-    public void setEngine(IEngine engine) {
+
+    public Car(PetrolEngine engine) {
+        this.engine = engine;
+    }
+
+    public void setEngine(PetrolEngine engine) {
         this.engine = engine;
     }
 
